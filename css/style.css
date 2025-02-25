@@ -57,6 +57,33 @@ main{
 
 /*footer*/
 
+footer{
+    background-color: rgb(37, 37, 37);
+    height:100px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.font-footer{
+    font-family: "Nunito", serif;
+    font-size: x-large;
+}
+
+.inline{
+    display: inline-flex;
+}
+
+.conteiner2{
+    height:80%;
+    width: 80%;
+}
+
+.content2{
+    width: 30%;
+    padding: 10px
+}
+
 /*utility*/
 .d-flex{
     display: flex;
@@ -67,7 +94,8 @@ main{
 }
 
 .font{
-    font-family: "Nunito", serif
+    font-family: "Nunito", serif;
+    font-size: x-large;
 }
 
 ul{
