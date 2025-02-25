@@ -1,0 +1,96 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*header*/
+
+header{
+    background-color: rgb(255, 104, 3);
+    height:100px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.conteiner{
+    height:80%;
+    width: 80%;
+}
+
+.content{
+    width: 20%;
+    padding: 10px
+}
+
+.botton-header{
+    background-color: rgba(240, 248, 255, 0);
+    border-color: rgba(240, 248, 255, 0);
+    font-size: xx-large;
+}
+
+
+/*main*/
+
+/*footer*/
+
+/*utility*/
+.d-flex{
+    display: flex;
+}
+
+.font{
+    font-family: "Nunito", serif
+}
+
+ul{
+    list-style: none;
+}
+
+.a-item{
+    align-items: center;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+.p-absolute{
+    position: absolute;
+
+}
+
+.p-relative{
+    position: relative
+}
+
+.p-fixed{
+    position:fixed
+}
+
+.p-sticky{
+    position: sticky
+}
+/*colors*/
+
+.bcolor-orange{
+    background-color: orange;
+}
+
+.bcolor-black{
+    background-color: black;
+}
+
+.bcolor-red{
+    background-color: red;
+}
+
+b.color-green{
+    background-color: green;
+}
+
+.color-white{
+    color: white;
+}
+
+
