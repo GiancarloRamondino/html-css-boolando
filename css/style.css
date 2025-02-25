@@ -32,11 +32,38 @@ header{
 
 /*main*/
 
+main{
+    display: flex;
+    margin: 50px;
+}
+.conteiner1{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+.content1{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
 /*footer*/
 
 /*utility*/
 .d-flex{
     display: flex;
+}
+
+.d-colomn{
+    display: table-column;
 }
 
 .font{
@@ -45,6 +72,11 @@ header{
 
 ul{
     list-style: none;
+    gap: 10px;
+}
+
+.t-left{
+    text-align: left;
 }
 
 .a-item{
@@ -91,6 +123,9 @@ b.color-green{
 
 .color-white{
     color: white;
+}
+.color-red{
+    color: red;
 }
 
 
