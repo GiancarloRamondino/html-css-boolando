@@ -39,9 +39,9 @@ main{
 .conteiner1{
     width: 80%;
     display: flex;
-    justify-content: center;
+   /* justify-content: center;*/
     flex-direction: column;
-    align-items: center;
+   /* align-items: center;*/
     margin: 0;
     flex-wrap: wrap;
 }
@@ -105,6 +105,10 @@ ul{
 
 .t-left{
     text-align: left;
+}
+
+.t-right{
+    text-align: right;
 }
 
 .a-item{
