@@ -74,6 +74,20 @@ main{
     background-color: green;
     font-size: medium;
 }
+
+.square-hearth{
+    width: 35px;
+    height: 35px;
+    padding-left: 1px;
+    position: relative;
+    bottom: 520px; left: 143px;
+    background-color: rgba(255, 255, 255, 0.952);
+    font-size: xx-large;
+}
+
+:hover{
+
+}
 /*footer*/
 
 footer{
